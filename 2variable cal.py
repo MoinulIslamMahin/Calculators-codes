@@ -12,10 +12,13 @@ if operator == "*":
 elif operator == "/":
   print("Answer: " + str(X/Y))
 # Option a bit more complex
+#EXPONENTIATION
 if operator == "**":
   print("Answer: " + str(X**Y))
+  #ROUNDING TO NEAREST INTEGER DIVISION
 elif operator =="//":
   print("Answer: " + str(X//Y))
+  #POWER
 elif operator == "^":
   print("Answer: " + str(int(pow( X,Y))))
 
